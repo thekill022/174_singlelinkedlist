@@ -51,7 +51,8 @@ void addNode() {
     }
     //set nilai nodeBaru->next = current
     nodeBaru->next = current;
-    
+    //set nilai previous->next = nodeBaru
+    previous->next = nodeBaru;
 };
 
 int main()
