@@ -205,7 +205,8 @@ int main()
 
         catch (exception e)
         {
-
+            //pesan kesalahan
+            cout << "Terjadi Kesalahan" << endl;
         }
 
     } while (true);
