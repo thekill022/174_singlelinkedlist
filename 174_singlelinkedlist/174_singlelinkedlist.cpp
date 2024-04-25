@@ -142,9 +142,9 @@ void searchData() {
 }
 
 
-
 int main()
 {
-   
+    //deklarasi variabel pilihan untuk menangkap input pengguna
+    int pilihan;
 }
 
