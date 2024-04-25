@@ -22,6 +22,20 @@ void addNode() {
     cin >> nama;
     nodeBaru->noMhs = nim;
     nodeBaru->name = nama;
+
+    //kondisi jika STAR == NULL atau nim lebih kecil sama dengan START->noMhs
+    if (START == NULL || nim <= START->noMhs) {
+        if (START != NULL && nim == START->noMhs)
+        {
+            cout << "NIM sudah ada" << endl;
+            return;
+        }
+
+        nodeBaru->next = START;
+        START = nodeBaru;
+        return;
+    }
+
 };
 
 int main()
