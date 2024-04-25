@@ -79,6 +79,18 @@ bool serachNode(int nim, Node* current, Node* previous) {
     }
 };
 
+//membuat method deleteNode() dengan parameter
+bool deleteNode(int nim) {
+    Node* current = START;
+    Node* previous = START;
+    if (serachNode(nim, previous, current) == false)
+        return false;
+    previous->next = current->next;
+    if (current == START)
+        START = current->next;
+    return true;
+}
+
 
 int main()
 {
