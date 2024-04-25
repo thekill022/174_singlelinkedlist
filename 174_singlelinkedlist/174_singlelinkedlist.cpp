@@ -146,5 +146,21 @@ int main()
 {
     //deklarasi variabel pilihan untuk menangkap input pengguna
     int pilihan;
+
+    do
+    {
+        //membungkus program dengan try catch untuk mendeteksi kesalahan
+
+        try
+        {
+
+        }
+        catch (exception e)
+        {
+
+        }
+
+    } while (true);
+
 }
 
