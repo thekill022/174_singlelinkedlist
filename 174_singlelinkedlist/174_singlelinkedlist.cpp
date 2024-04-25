@@ -35,6 +35,9 @@ void addNode() {
         START = nodeBaru;
         return;
     }
+    //set nilai previous dan current menjadi START
+    Node* previous = START;
+    Node* current = START;
 
 };
 
