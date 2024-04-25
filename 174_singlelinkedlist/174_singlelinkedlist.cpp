@@ -8,6 +8,9 @@ struct Node {
     Node* next;
 };
 
+//set value START = NULLL
+Node* START = NULL;
+
 
 int main()
 {
