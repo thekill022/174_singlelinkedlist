@@ -209,7 +209,8 @@ int main()
             cout << "Terjadi Kesalahan" << endl;
         }
 
-    } while (true);
+    } while (pilihan != 5); //ulangi program selama pilihan tidak sama dengan 5
+
 
 }
 
